@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: rgb(194, 226, 240);
+    font-family: 'Nunito', sans-serif;
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.app {
+    width: 370px;
+    height: 500px;
+    background: linear-gradient(pink, lightgray, lightgreen);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px gray;
+    padding: 40px 20px;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+h3 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment_btn {
+    background: darkred;
+    font-family: inherit;
+}
+
+#save_btn {
+    background: darkgreen;
+    font-family: inherit;
+}
+
+#clear_btn {
+    background: black;
+    font-family: inherit;
+    margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+    .app {
+        width: 275px;
+        height: 460px;
+        margin: 0;
+    }
+}
