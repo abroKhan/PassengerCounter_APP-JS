@@ -4,6 +4,7 @@ body {
     background: rgb(194, 226, 240);
     font-family: 'Nunito', sans-serif;
     /* color: white; */
+	height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
