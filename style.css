@@ -66,6 +66,6 @@ button {
     .app {
         width: 275px;
         height: 460px;
-        margin: 0;
+        margin: 30px 0;
     }
 }
